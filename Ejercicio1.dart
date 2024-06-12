@@ -1,11 +1,11 @@
-//Tarea 1.1 Sergio Rolando Inestroza Amaya 20182002621
+//Ejercicio1 Sergio Rolando Inestroza Amaya 20182002621
 
-class circulo
+class Circulo
 {
   late int radio;
   late String color;
 
-  circulo({
+  Circulo({
     required this.radio, required this.color
   });
 }
@@ -18,5 +18,5 @@ void main()
     area=r*r*3.1416;
     return area;
   }
-  print("El area del circulo es: ${areacirculo(10)}");
+  print("El area del circulo es: ${areacirculo(4)}");
 }
